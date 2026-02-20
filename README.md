@@ -1,1 +1,1 @@
-# proyecto-agente_IA 
+# proyecto-CORTEX-Chef-Culinario

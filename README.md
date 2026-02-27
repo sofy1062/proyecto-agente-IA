@@ -10,6 +10,7 @@ grupo de agente gastronomico
 ![Mi primer tablero](https://github.com/user-attachments/assets/49032790-b0e0-4af7-886f-ef412885b64e)
 
 #Semana 3
+
 <img width="764" height="631" alt="grafico de radar - agente inteligente" src="https://github.com/user-attachments/assets/222f732b-c268-4ec8-8939-1e849d5f76f8" />
 
 

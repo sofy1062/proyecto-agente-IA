@@ -4,10 +4,11 @@ Mision:recetas, técnicas culinarias, maridajes y gestión de cocina
 
 **danna sofia bejarano fuentes/ andres felipe ramirez marquez/ juan david rojas borray**
 grupo de agente gastronomico
+#Perfil del agente#
 
-#Perfil del agente 
 ![Mi primer tablero](https://github.com/user-attachments/assets/49032790-b0e0-4af7-886f-ef412885b64e)
-#Semana 3
+
+#Semana 3#
 <img width="1920" height="1080" alt="grafico de radar" src="https://github.com/user-attachments/assets/241c4546-28d6-456a-a1ac-872c5018f595" />
 
 Memoria: 10\10

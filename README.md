@@ -10,9 +10,10 @@ grupo de agente gastronomico
 ![Mi primer tablero](https://github.com/user-attachments/assets/49032790-b0e0-4af7-886f-ef412885b64e)
 
 #Semana 3
-<img width="1920" height="1080" alt="grafico de radar" src="https://github.com/user-attachments/assets/241c4546-28d6-456a-a1ac-872c5018f595" />
+<img width="764" height="631" alt="grafico de radar - agente inteligente" src="https://github.com/user-attachments/assets/222f732b-c268-4ec8-8939-1e849d5f76f8" />
 
-Memoria: 10\10
+
+Memoria 10\10:
 Una IA que trabaja con recetas debe:
 	•	Recordar ingredientes exactos.
 	•	Recordar cantidades y proporciones.
@@ -24,17 +25,17 @@ Una IA que trabaja con recetas debe:
 Si un usuario le pide 10 recetas distintas en el día, la IA debe poder gestionarlas sin confundirse.
 Por eso la memoria es el punto más alto: es el núcleo funcional del sistema.
 
-Atención: 9/10
+Atención 9/10:
 Una IA de recetas necesita:
 	•	Entender exactamente qué está pidiendo el usuario.
 	•	Detectar restricciones (sin gluten, vegano, bajo en azúcar, etc.).
 	•	Prestar atención a detalles como porciones o nivel de dificultad.
 	•	No mezclar instrucciones.
 
-No le pones 10 porque la atención no es tan estructural como la memoria, pero sigue siendo casi indispensable.
+No le ponemos 10 porque la atención no es tan estructural como la memoria, pero sigue siendo casi indispensable.
 Si la IA no presta atención, puede dar una receta equivocada.
 
-Lenguaje: 6/10
+Lenguaje 6/10:
 Aquí el valor es intermedio porque:
 	•	La IA debe explicar bien los pasos.
 	•	Debe usar un lenguaje claro y comprensible.
@@ -45,7 +46,7 @@ Pero no necesita un lenguaje extremadamente creativo o literario.
 No está escribiendo poesía ni novelas, solo instrucciones claras.
 Por eso un 6 es coherente: necesita buena comunicación, pero no un nivel máximo.
 
-Emoción: 3/10
+Emoción 3/10:
 
 Aquí el puntaje es bajo porque:
 	•	No necesita sentir emociones.
@@ -56,3 +57,16 @@ Aquí el puntaje es bajo porque:
 Su función es técnica y práctica.
 Puede tener un tono amable o cordial, pero no requiere una inteligencia emocional avanzada.
 Por eso un 3 es lógico: algo mínimo para sonar amigable, pero no es una prioridad.
+
+Razonamiento 8/10:
+
+Una IA que trabaja con recetas debe:
+	•	Ajustar cantidades según el número de personas.
+	•	Adaptar ingredientes si el usuario no tiene alguno disponible.
+	•	Modificar recetas según restricciones alimenticias (vegano, sin gluten, sin azúcar, etc.).
+	•	Organizar los pasos de forma lógica y coherente.
+	•	Resolver situaciones como cambiar horno por sartén o freidora de aire.
+	•	Recomendar combinaciones adecuadas de platos.
+
+Esto demuestra que la IA no solo repite información, sino que analiza y adapta según el contexto.
+No le ponemos 10 porque no necesita un razonamiento extremadamente complejo, como resolver problemas científicos avanzados o tomar decisiones éticas profundas. Su razonamiento es práctico y aplicado a la cocina.

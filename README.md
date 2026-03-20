@@ -71,3 +71,6 @@ Una IA que trabaja con recetas debe:
 
 Esto demuestra que la IA no solo repite información, sino que analiza y adapta según el contexto.
 No le ponemos 10 porque no necesita un razonamiento extremadamente complejo, como resolver problemas científicos avanzados o tomar decisiones éticas profundas. Su razonamiento es práctico y aplicado a la cocina.
+
+
+![WhatsApp Image 2026-03-20 at 5 40 10 PM](https://github.com/user-attachments/assets/921fc3d8-bf3b-4bdd-8bf2-fad5af69b0a8)

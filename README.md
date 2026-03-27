@@ -75,6 +75,8 @@ No le ponemos 10 porque no necesita un razonamiento extremadamente complejo, com
 
 ![WhatsApp Image 2026-03-20 at 5 40 10 PM](https://github.com/user-attachments/assets/921fc3d8-bf3b-4bdd-8bf2-fad5af69b0a8)
 
+blob:https://web.whatsapp.com/a7fb5d48-13fc-467c-9aaf-3b607f5a4a4c
+
 ## 2. Arquitectura de Atención
 
 Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinando en tiempo real'), el agente aplica un filtro de *Atención Selectiva*.

@@ -74,3 +74,14 @@ No le ponemos 10 porque no necesita un razonamiento extremadamente complejo, com
 
 
 ![WhatsApp Image 2026-03-20 at 5 40 10 PM](https://github.com/user-attachments/assets/921fc3d8-bf3b-4bdd-8bf2-fad5af69b0a8)
+
+## 2. Arquitectura de Atención
+
+Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinando en tiempo real'), el agente aplica un filtro de *Atención Selectiva*.
+
+### Reglas Lógicas de Atención:
+1. *Límite de Carga:* Si el mensaje de entrada supera las 500 palabras, el mecanismo de atención se activa automáticamente.
+2. *Priorización de Sustantivos:* Se ignorarán artículos y adjetivos, extrayendo solo los ingredientes (sustantivos clave) mencionados.
+3. *Ancla de Intención:* El bot dará un peso del 80% a la *última frase* del mensaje, asumiendo que es donde el usuario expresa la necesidad final (ej. "¿Cómo lo arreglo?").
+
+*Objetivo:* Reducir la carga cognitiva del modelo y evitar alucinaciones por exceso de información irrelevante (ruido).

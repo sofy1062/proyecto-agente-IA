@@ -95,3 +95,6 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 | *Semántica (LTM)* | *Técnicas Base* | Enciclopedia de procesos culinarios y temperaturas. | "Punto de nieve: Batir claras hasta picos firmes." |
 | *Semántica (LTM)* | *Diccionario de Sustitutos* | Tabla de equivalencias para dietas y alérgenos. | "Sustituto de huevo (vegano): 1 cda de linaza + 3 de agua." |
 | *Episódica (LTM)* | *Historial de Usuario* | Preferencias guardadas, nivel de cocina y alergias. | "Usuario: jrojasborray. Nivel: Avanzado. Alergia: Nueces." |
+
+<img width="1164" height="350" alt="image" src="https://github.com/user-attachments/assets/02f29c84-78b2-470e-85cf-b65c79c72bfd" />
+

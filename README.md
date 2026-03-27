@@ -87,3 +87,11 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 3. *Ancla de Intención:* El bot dará un peso del 80% a la *última frase* del mensaje, asumiendo que es donde el usuario expresa la necesidad final (ej. "¿Cómo lo arreglo?").
 
 *Objetivo:* Reducir la carga cognitiva del modelo y evitar alucinaciones por exceso de información irrelevante (ruido).
+
+### ## 3. Arquitectura de Memoria (LTM)
+
+| Tipo de Memoria | Categoría de Datos | Descripción | Ejemplo de Entrada |
+| :--- | :--- | :--- | :--- |
+| *Semántica (LTM)* | *Técnicas Base* | Enciclopedia de procesos culinarios y temperaturas. | "Punto de nieve: Batir claras hasta picos firmes." |
+| *Semántica (LTM)* | *Diccionario de Sustitutos* | Tabla de equivalencias para dietas y alérgenos. | "Sustituto de huevo (vegano): 1 cda de linaza + 3 de agua." |
+| *Episódica (LTM)* | *Historial de Usuario* | Preferencias guardadas, nivel de cocina y alergias. | "Usuario: jrojasborray. Nivel: Avanzado. Alergia: Nueces." |

@@ -98,3 +98,30 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 
 <img width="1164" height="350" alt="image" src="https://github.com/user-attachments/assets/02f29c84-78b2-470e-85cf-b65c79c72bfd" />
 
+<img width="1011" height="920" alt="image" src="https://github.com/user-attachments/assets/6bb3300c-077d-4c2e-9b8d-4e7592bb0f38" 
+
+flowchart TD
+    A([Inicio: Pregunta del usuario]) --> B[Buscar en RAM]
+    B --> C{¿Existe en RAM?}
+
+    C -->|Sí| D[Responder con contexto]
+    C -->|No| E[Buscar en LTM]
+
+    E --> F{¿Existe en LTM?}
+    F -->|Sí| G[Recuperar y responder]
+    F -->|No| H[Generar respuesta nueva]
+
+    H --> I[Guardar en LTM]
+    G --> J[Actualizar RAM]
+    D --> J
+    I --> J
+
+    J --> K{¿Inactividad > 10 min?}
+    K -->|Sí| L[Limpiar RAM]
+    K -->|No| M[Continuar conversación]
+
+	Regla de Olvido:
+Condición: inactividad > 10 minutos
+Acción: limpiar RAM
+Se conserva: LTM
+Resultado: nuevo contexto limpio

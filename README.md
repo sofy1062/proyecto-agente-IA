@@ -100,6 +100,29 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 
 <img width="1011" height="920" alt="image" src="https://github.com/user-attachments/assets/23627b43-d931-41dc-9527-792008e8ff91" />
 
+# Flujo Lógico de Recuperación — El Bibliotecario
+
+```mermaid
+flowchart TD
+    A([Inicio: Pregunta del usuario]) --> B[Buscar en RAM]
+    B --> C{¿Existe en RAM?}
+
+    C -->|Sí| D[Responder con contexto]
+    C -->|No| E[Buscar en LTM]
+
+    E --> F{¿Existe en LTM?}
+    F -->|Sí| G[Recuperar y responder]
+    F -->|No| H[Generar respuesta nueva]
+
+    H --> I[Guardar en LTM]
+    G --> J[Actualizar RAM]
+    D --> J
+    I --> J
+
+    J --> K{¿Inactividad > 10 min?}
+    K -->|Sí| L[Limpiar RAM]
+    K -->|No| M[Continuar conversación]
+
 Regla de Olvido:
   • Condición: inactividad > 10 minutos
   • Acción: limpiar RAM

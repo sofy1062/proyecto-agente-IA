@@ -123,16 +123,3 @@ flowchart TD
     J --> K{¿Inactividad > 10 min?}
     K -->|Sí| L[Limpiar RAM]
     K -->|No| M[Continuar conversación]
-
-## Regla de Olvido
-*Condición:*
-- Inactividad > 10 minutos  
-
-*Acción:*  
-- Limpiar RAM  
-
-*Se conserva:*  
-- LTM (memoria a largo plazo)  
-
-*Resultado:*  
-- Nuevo contexto limpio

@@ -101,7 +101,7 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 <img width="1011" height="920" alt="image" src="https://github.com/user-attachments/assets/23627b43-d931-41dc-9527-792008e8ff91" />
 
 Regla de Olvido:
-  Condición: inactividad > 10 minutos
-  Acción: limpiar RAM
-  Se conserva: LTM
-  Resultado: nuevo contexto limpio
+  • Condición: inactividad > 10 minutos
+  • Acción: limpiar RAM
+  • Se conserva: LTM
+  • Resultado: nuevo contexto limpio

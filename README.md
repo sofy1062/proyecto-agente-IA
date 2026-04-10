@@ -69,6 +69,7 @@ Una IA que trabaja con recetas debe:
 	•	Resolver situaciones como cambiar horno por sartén o freidora de aire.
 	•	Recomendar combinaciones adecuadas de platos.
 
+
 Esto demuestra que la IA no solo repite información, sino que analiza y adapta según el contexto.
 No le ponemos 10 porque no necesita un razonamiento extremadamente complejo, como resolver problemas científicos avanzados o tomar decisiones éticas profundas. Su razonamiento es práctico y aplicado a la cocina.
 
@@ -124,8 +125,7 @@ flowchart TD
     K -->|No| M[Continuar conversación]
 
 ## Regla de Olvido
-
-*Condición:*  
+*Condición:*
 - Inactividad > 10 minutos  
 
 *Acción:*  

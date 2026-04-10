@@ -100,3 +100,24 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 <img width="1164" height="350" alt="image" src="https://github.com/user-attachments/assets/02f29c84-78b2-470e-85cf-b65c79c72bfd" />
 
 <img width="1011" height="920" alt="image" src="https://github.com/user-attachments/assets/23627b43-d931-41dc-9527-792008e8ff91" />
+
+```mermaid
+flowchart TD
+A[Pregunta: ¿Cómo hacer merengue?] --> B[Buscar en RAM]
+B --> C{¿Existe receta en RAM?}
+
+C -->|Sí| D[Responder con pasos actuales]
+C -->|No| E[Buscar en LTM recetas]
+
+E --> F{¿Existe receta?}
+F -->|Sí| G[Recuperar receta culinaria]
+F -->|No| H[Generar nueva receta]
+
+H --> I[Guardar receta en LTM]
+G --> J[Actualizar RAM]
+D --> J
+I --> J
+
+J --> K{¿Inactividad > 10 min?}
+K -->|Sí| L[Olvidar receta actual]
+K -->|No| M[Continuar cocinando]

@@ -98,7 +98,8 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 
 <img width="1164" height="350" alt="image" src="https://github.com/user-attachments/assets/02f29c84-78b2-470e-85cf-b65c79c72bfd" />
 
-<img width="1011" height="920" alt="image" src="https://github.com/user-attachments/assets/6bb3300c-077d-4c2e-9b8d-4e7592bb0f38" 
+<img width="1011" height="920" alt="image" src="https://github.com/user-attachments/assets/23627b43-d931-41dc-9527-792008e8ff91" />
+
 
 flowchart TD
     A([Inicio: Pregunta del usuario]) --> B[Buscar en RAM]

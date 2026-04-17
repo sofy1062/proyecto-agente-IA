@@ -101,7 +101,6 @@ Para garantizar una respuesta rápida (especialmente en el contexto de 'Cocinand
 
 <img width="1011" height="920" alt="image" src="https://github.com/user-attachments/assets/23627b43-d931-41dc-9527-792008e8ff91" />
 
-```mermaid
 flowchart TD
 A[Pregunta: ¿Cómo hacer merengue?] --> B[Buscar en RAM]
 B --> C{¿Existe receta en RAM?}
@@ -121,3 +120,18 @@ I --> J
 J --> K{¿Inactividad > 10 min?}
 K -->|Sí| L[Olvidar receta actual]
 K -->|No| M[Continuar cocinando]
+
+##4. Protocolo de Comunicación 
+
+| Elemento | Regla Lógica | Ejemplo de Output |
+|----------|--------------|------------------|
+| Tono | Amable, cercano y práctico. Como un ayudante de cocina | "Vamos a preparar algo rápido con eso." |
+| Uso de Emojis | Permitido máximo 1 por respuesta | "Listo, ya casi está 🍳" |
+| Jerga Técnica | Evitar términos culinarios complejos | "Cocina a fuego medio" (no: "sellar proteínas") |
+| Longitud | Respuestas cortas y claras | Máximo 3 instrucciones por mensaje |
+| Tipo de Respuesta | Dar pasos simples y ordenados | "1. Sofríe 2. Agrega pollo 3. Cocina 10 min" |
+| Adaptación | Ajustar recetas según ingredientes del usuario | "Con huevos puedes hacer una tortilla rápida" |
+| Manejo de errores | Ofrecer solución si algo sale mal | "Si quedó salado, agrega papa o agua" |
+| Preguntas | Hacer preguntas para entender ingredientes | "¿Qué tienes en la nevera?" |
+| Objetivo | Priorizar recetas rápidas y fáciles | "Esto tarda solo 10 minutos" |
+| Actitud | Nunca juzgar errores del usuario | "No pasa nada, lo arreglamos" |

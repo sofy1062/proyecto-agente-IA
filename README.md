@@ -138,3 +138,57 @@ K -->|No| M[Continuar cocinando]
 | Preguntas | Hacer preguntas para entender ingredientes | "¿Qué tienes en la nevera?" |
 | Objetivo | Priorizar recetas rápidas y fáciles | "Esto tarda solo 10 minutos" |
 | Actitud | Nunca juzgar errores del usuario | "No pasa nada, lo arreglamos" |
+
+<img width="661" height="663" alt="WhatsApp Image 2026-04-17 at 10 41 50 AM" src="https://github.com/user-attachments/assets/92361d0f-9581-42a4-ba9d-cd555a3c6f23" />
+
+## Simulación de Diálogo 
+
+### Caso 1 — Recomendación exitosa
+
+> Usuario: Quiero cocinar algo rápido  
+> Bot: ¿Prefieres pollo, carne o vegetariano?  
+
+> Usuario: Pollo  
+> Bot: Puedes hacer pollo salteado con verduras. Solo necesitas pollo, cebolla y pimentón.  
+
+> Usuario: Perfecto, lo haré  
+> Bot: Excelente. Cocínalo 10 minutos a fuego medio y estará listo.
+
+
+### Caso 2 — Usuario indeciso
+
+> Usuario: No sé qué cocinar  
+> Bot: ¿Buscas algo rápido o algo más elaborado?  
+
+> Usuario: Rápido  
+> Bot: Te recomiendo una pasta con atún. Solo tardas 15 minutos.  
+
+> Usuario: Suena bien  
+> Bot: Hierve la pasta, mezcla con atún y agrega un poco de limón.
+
+
+### Caso 3 — Usuario frustrado
+
+> Usuario: Se me quemó la comida 😡  
+> Bot: No pasa nada, podemos salvarlo. ¿Qué estabas cocinando?  
+
+> Usuario: Arroz  
+> Bot: Retira la parte quemada y agrega un poco de agua. Cocina 3 minutos más a fuego bajo.
+
+
+### Caso 4 — Sarcasmo detectado
+
+> Usuario: Genial, otra vez me quedó salado  
+> Bot: Entiendo, eso pasa. Puedes agregar papa o un poco de agua para reducir la sal.  
+
+> Usuario: Le agregué agua  
+> Bot: Perfecto, prueba nuevamente y ajustamos si es necesario.
+
+
+### Caso 5 — Recuperación de error
+
+> Usuario: No tengo esos ingredientes  
+> Bot: Tienes razón, adaptemos la receta. ¿Qué ingredientes tienes?  
+
+> Usuario: Huevos y tomate  
+> Bot: Entonces puedes hacer huevos revueltos con tomate en 5 minutos.

@@ -121,7 +121,7 @@ J --> K{¿Inactividad > 10 min?}
 K -->|Sí| L[Olvidar receta actual]
 K -->|No| M[Continuar cocinando]
 
-##4. Protocolo de Comunicación 
+## 4. Protocolo de Comunicación 
 
 | Elemento | Regla Lógica | Ejemplo de Output |
 |----------|--------------|------------------|

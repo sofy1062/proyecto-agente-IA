@@ -214,3 +214,33 @@ Para bloquear este sesgo, nuestro algoritmo implementa la siguiente **Regla de S
 IF usuario_pide_recomendación == TRUE
 AND ingrediente_sugerido == "Muy Frecuente" (Top 5)
 THEN buscar_alternativa_local_
+
+```
+
+<img width="1717" height="570" alt="image" src="https://github.com/user-attachments/assets/c637b46a-b5fa-48d0-a753-1c30e0b26079" />
+
+## 5. Protocolo de Razonamiento y Ética (Motor Lógico) 🧠🛡️
+
+[cite_start]En esta fase, hemos diseñado el "cerebro" del agente gastronómico utilizando principios de **Razonamiento Deductivo** para la resolución de problemas técnicos en la cocina y un protocolo ético para mitigar sesgos cognitivos humanos[cite: 4, 26].
+
+### 5.1. Mitigación de Sesgos Cognitivos (Kahneman)
+[cite_start]Para garantizar un juicio imparcial, hemos identificado un "bug humano" que el agente podría heredar de sus datos de entrenamiento[cite: 13, 14]:
+
+* [cite_start]**Sesgo seleccionado:** **Sesgo de Disponibilidad (Availability Heuristic)**[cite: 16, 27].
+* [cite_start]**Riesgo en el bot:** El agente podría sugerir siempre ingredientes ultra-procesados o recetas genéricas (ej. pasta o pollo) solo porque son los datos más frecuentes en internet, ignorando opciones locales colombianas o alternativas más saludables[cite: 19].
+
+### 5.2. Contra-Medida Lógica (Regla de Seguridad)
+[cite_start]Para bloquear este sesgo y forzar al bot a usar su **Sistema 2** (pensamiento lento y analítico), se ha implementado la siguiente regla de seguridad[cite: 18, 19, 27]:
+
+> [cite_start]"Si el usuario solicita una recomendación abierta, el algoritmo buscará activamente dos opciones que **contradigan** la tendencia de popularidad (opciones locales o ingredientes de temporada) antes de emitir un juicio final, garantizando diversidad y objetividad en la respuesta"[cite: 19].
+
+### 5.3. Algoritmo de Decisión (Lógica Condicional Estricta)
+[cite_start]A continuación, se detalla la lógica central que rige el comportamiento del bot ante un problema del usuario:
+
+```python
+# Representación de la lógica deductiva del agente
+IF usuario_presenta_problema == "Salsa cortada"
+AND tiene_ingredientes_base == TRUE
+THEN ejecutar_procedimiento_rescate("Emulsión gradual")
+ELSE
+    sugerir_técnica_alternativa("Transformación de receta")

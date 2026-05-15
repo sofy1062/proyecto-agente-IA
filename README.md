@@ -392,4 +392,12 @@ Sabores IA debe:
 - Mantener neutralidad.
 - Priorizar la seguridad emocional.
 
-<img width="297" height="775" alt="image" src="https://github.com/user-attachments/assets/426d13fc-f06d-4768-98be-6155bbe60be9" />
+<img width="241" height="768" alt="image" src="https://github.com/user-attachments/assets/177a22ad-8629-4aa4-b198-de0e3d121c16" />
+
+<img width="170" height="798" alt="image" src="https://github.com/user-attachments/assets/51f8466d-fbfd-45c0-9125-e954d7ec4d8c" />
+
+<img width="128" height="722" alt="image" src="https://github.com/user-attachments/assets/58f3c5c0-a8eb-4f2c-b927-f37c562f291c" />
+
+<img width="137" height="921" alt="image" src="https://github.com/user-attachments/assets/3e74464b-e56d-46c3-a41e-45404453f582" />
+
+

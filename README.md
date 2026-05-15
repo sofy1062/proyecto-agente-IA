@@ -391,3 +391,5 @@ Sabores IA debe:
 - No discriminar.
 - Mantener neutralidad.
 - Priorizar la seguridad emocional.
+
+<img width="297" height="775" alt="image" src="https://github.com/user-attachments/assets/426d13fc-f06d-4768-98be-6155bbe60be9" />

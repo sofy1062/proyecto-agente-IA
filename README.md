@@ -192,3 +192,5 @@ K -->|No| M[Continuar cocinando]
 
 > Usuario: Huevos y tomate  
 > Bot: Entonces puedes hacer huevos revueltos con tomate en 5 minutos.
+
+<img width="1207" height="691" alt="image" src="https://github.com/user-attachments/assets/503c2581-10d9-46db-a4d1-d2ae4de11343" />

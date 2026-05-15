@@ -194,3 +194,23 @@ K -->|No| M[Continuar cocinando]
 > Bot: Entonces puedes hacer huevos revueltos con tomate en 5 minutos.
 
 <img width="1207" height="691" alt="image" src="https://github.com/user-attachments/assets/503c2581-10d9-46db-a4d1-d2ae4de11343" />
+
+## 5. Lógica y Ética: Protocolo Anti-Sesgos 🛡️
+
+En esta fase, hemos integrado un "Motor Lógico" diseñado para que el agente no solo responda consultas, sino que razone de manera deductiva y ética. Para evitar que el bot herede atajos mentales erróneos (heurísticos), hemos implementado el siguiente protocolo basado en las teorías de Daniel Kahneman.
+
+### 5.1. Mitigación de Sesgos Cognitivos
+* **Sesgo Identificado:** **Sesgo de Disponibilidad (Availability Heuristic)**.
+* **Definición:** La tendencia humana a confiar en la información que viene a la mente de forma más rápida (por ejemplo, sugerir siempre ingredientes comunes como "pollo" o "harina de trigo" solo por su alta frecuencia en internet).
+* **Riesgo en el Agente:** El bot podría ignorar alternativas más saludables, económicas o locales (gastronomía colombiana) simplemente porque no son lo "primero" que aparece en los datos de entrenamiento generales.
+
+### 5.2. Regla de Seguridad (Contra-medida Lógica)
+Para bloquear este sesgo, nuestro algoritmo implementa la siguiente **Regla de Seguridad**:
+
+> "Si el usuario solicita una recomendación de ingrediente o receta genérica, el sistema ejecutará una búsqueda activa en el módulo de 'Gastronomía Local/Diversa' y presentará obligatoriamente **una opción alternativa** antes de confirmar la sugerencia más frecuente. Esto obliga al sistema a pasar del Pensamiento Rápido (Sistema 1) al Pensamiento Lento/Analítico (Sistema 2)".
+
+### 5.3. Implementación IF-AND-THEN
+```python
+IF usuario_pide_recomendación == TRUE
+AND ingrediente_sugerido == "Muy Frecuente" (Top 5)
+THEN buscar_alternativa_local_
